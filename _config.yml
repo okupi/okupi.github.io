@@ -1,7 +1,7 @@
 # Site settings
-title: Site Title
-email: somename@somedomain.com
-description: "Site Description"
+title: "Adventures in Okupi"
+email: okupi@cxiu.nl
+description: "The most complete history of the world Okupi one will find"
 logo_location: "http://placehold.it/100x100&text=LOGO"
 
 #baseurl: "" # the subpath of your site, e.g. /blog/

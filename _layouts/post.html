@@ -9,15 +9,15 @@ layout: default
       <header class="page-header">
         <h3 class="page-title">{{ page.title }}</h3>
         <div class="post-metadata">
-          <div> <i class="fa fa-calendar"></i>
+          <div> {% if page.date %} <i class="fa fa-calendar"></i>
             <time>
               {{ page.date | date:'%A, %B %d, %Y'}}
-            </time>
+            </time> {% endif %}
           </div>
-          <div> <i class="fa fa-tag"></i>
+          <div> {% if post.tags and post.tags.size > 0 %} <i class="fa fa-tag"></i>
               {% for tag in page.tags %}
                 <span class="label label-primary">{{tag}}</span>
-              {% endfor %}
+              {% endfor %}{% endif %}
           </div>
         </div>
 

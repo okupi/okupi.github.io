@@ -1,0 +1,9 @@
+{% unless color_definitions %}
+  {% assign color_definitions = site.data.map.colors %}
+{% endunless %}
+{% for _color in color_definitions %}
+  {% if color == _color[0] %}
+    {% assign color = _color[1] %}
+    {% break %}
+  {% endif %}
+{% endfor %}
