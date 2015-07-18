@@ -7,6 +7,10 @@ mainmenu:
     url: "/about/"
     text: "About"
     icon_class: "fa-info-circle"
+  population:
+    url: "/population/"
+    text: "Population"
+    icon_class: "fa-users"
   map:
     url: "/map/"
     text: "Map"

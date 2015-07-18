@@ -93,3 +93,13 @@ body {
 .centered-text{
   text-align: center;
 }
+
+table th {
+  background-color: #f5f5f5;
+  color: #002E62;
+}
+
+table tr > * {
+  padding-left: 5px;
+  padding-right: 5px;
+}

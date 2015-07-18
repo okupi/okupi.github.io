@@ -4,7 +4,7 @@
 # The coordinate system starts in the left upper corner of the drawing area,
 # with the first axis going down, the second axis to the right.
 
-map_location: "/assets/img/ortelius_worldmap.jpg"
+map_location: "/assets/img/okupi.png"
 
 colors:
   # If a path or area does not define a color, defaultcolor is used
@@ -16,82 +16,34 @@ colors:
   yellow: "rgba(215, 215, 44, 1)"
   white: "rgba(255, 255, 255, 1)"
 
-areas:
-  Murghom:
-    name: "Murghôm"
-    coords: [
-      4400, 1250, 
-      4400, 1190,
-      4760, 1030,
-      4760, 1185,
-      4523, 1265
-    ]
-  SwordCoastNorth:
-    name: "Sword Coast North"
-    color: "green"
-    coords: [
-      183, 279,
-      630, 125,
-      632, 252,
-      683, 302,
-      786, 401,
-      820, 529,
-      820, 626,
-      700, 688,
-      539, 644,
-      389, 328
-    ]
-  SwordCoast:
-    name: "Sword Coast"
-    coords: [
-      691, 687,
-      721, 757,
-      885, 1140,
-      1041, 1168,
-      1097, 1146,
-      1170, 1167,
-      1232, 1127,
-      1231, 993,
-      1113, 934,
-      1052, 860,
-      1050, 808,
-      1000, 714,
-      1017, 679,
-      1021, 631,
-      909, 580
-    ]
-  GiantsRunMountains:
-    name: "Giant's Run Mountains"
-    coords: [
-      1933, 1216,
-      1954, 1228,
-      1947, 1248,
-      2008, 1310, 
-      1987, 1384,
-      1961, 1425,
-      1901, 1472,
-      1840, 1446,
-      1855, 1407,
-      1896, 1377,
-      1873, 1345,
-      1880, 1312,
-      1871, 1296,
-      1890, 1247,
-      1905, 1225
-    ]
-
-paths:
-  PartyPath:
-    name: "Party's path"
-    coords: [
-      492, 447,
-      504, 482,
-      523, 507,
-      552, 522,
-      563, 521,
-      556, 510, # Cragmaw hideout
-      563, 521,
-      583, 506,
-      595, 526 # Phandalin
-    ]
-
+#areas:
+#  SwordCoastNorth:
+#    name: "Sword Coast North"
+#    color: "green"
+#    coords: [
+#      183, 279,
+#      630, 125,
+#      632, 252,
+#      683, 302,
+#      786, 401,
+#      820, 529,
+#      820, 626,
+#      700, 688,
+#      539, 644,
+#      389, 328
+#    ]
+#
+#paths:
+#  PartyPath:
+#    name: "Party's path"
+#    coords: [
+#      492, 447,
+#      504, 482,
+#      523, 507,
+#      552, 522,
+#      563, 521,
+#      556, 510, # Cragmaw hideout
+#      563, 521,
+#      583, 506,
+#      595, 526 # Phandalin
+#    ]
