@@ -2,7 +2,7 @@
 title: "Adventures in Okupi"
 email: okupi@cxiu.nl
 description: "The most complete history of the world Okupi one will find"
-logo_location: "http://placehold.it/100x100&text=LOGO"
+logo_location: "/assets/img/okupi_logo.png"
 
 #baseurl: "" # the subpath of your site, e.g. /blog/
 #url: "" # the base hostname & protocol for your site
